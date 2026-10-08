@@ -19,23 +19,19 @@ h2,h4,p{
 }
 #top {
   width : 100% ;
-  height : 45% ;
   padding : 25px ;
 }
 #main2 {
   width : 100% ;
-  height : 55% ;
   color : white ;
 }
 #bottom-left {
   width : 100% ;
-  height : 100% ;
   background-color :#2ab2af ;
   padding : 25px ;
 }
 #bottom-right {
   width : 100% ;
-  height : 100% ;
   background-color :#30C7C4 ;
   padding : 25px ;
 }
@@ -101,10 +97,17 @@ h2,h4,p{
 }
 @media (min-width:576px){
 #main {
-  width : 550px ;
-  height : 400px ;
-}
-  #bottom-right ,#bottom-left {
- width : 50% ;
-}
+    width : 550px ;
+    height : 400px ;
+  }
+  #top {
+    height : 45% ;
+  }
+  #main2 {
+    height : 55% ;
+  }
+  #bottom-right, #bottom-left {
+    width : 50% ;
+    height : 100% ;
+  }
 }
