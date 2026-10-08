@@ -101,3 +101,12 @@ h2,h4,p{
   background-color : #9CB52A ;
   transform : scale(1.02) ;
 }
+@media (min-width:576px){
+#main {
+  width : 550px ;
+  height : 400px ;
+}
+  #bottom-right ,#bottom-left {
+ width : 50% ;
+}
+}
